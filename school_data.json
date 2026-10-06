@@ -1,0 +1,69 @@
+{
+  "instructors": [
+    {
+      "name": "Dr. Rana Smith",
+      "age": 45,
+      "email": "rsmith@aub.edu.lb",
+      "instructor_id": "I001",
+      "assigned_courses": [
+        "EECE230"
+      ]
+    },
+    {
+      "name": "Dr. Karim Haddad",
+      "age": 38,
+      "email": "khaddad@aub.edu.lb",
+      "instructor_id": "I002",
+      "assigned_courses": [
+        "EECE330"
+      ]
+    }
+  ],
+  "courses": [
+    {
+      "course_id": "EECE230",
+      "course_name": "Introduction to Programming",
+      "instructor_id": "I001"
+    },
+    {
+      "course_id": "EECE330",
+      "course_name": "Data Structures",
+      "instructor_id": "I002"
+    },
+    {
+      "course_id": "EECE435",
+      "course_name": "Software Tools Lab",
+      "instructor_id": null
+    }
+  ],
+  "students": [
+    {
+      "name": "Lina Khoury",
+      "age": 19,
+      "email": "lina.khoury@mail.aub.edu",
+      "student_id": "S001",
+      "registered_courses": [
+        "EECE230",
+        "EECE435"
+      ]
+    },
+    {
+      "name": "Omar Saad",
+      "age": 20,
+      "email": "omar.saad@mail.aub.edu",
+      "student_id": "S002",
+      "registered_courses": [
+        "EECE330"
+      ]
+    },
+    {
+      "name": "Maya Nassar",
+      "age": 21,
+      "email": "maya.nassar@mail.aub.edu",
+      "student_id": "S003",
+      "registered_courses": [
+        "EECE435"
+      ]
+    }
+  ]
+}

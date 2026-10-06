@@ -1,0 +1,17 @@
+2026-10-06 14:49:53,969 - INFO - IMPORT 3 students, 2 instructors, 3 courses
+2026-10-06 15:24:10,788 - INFO - IMPORT 3 students, 2 instructors, 3 courses
+2026-10-06 15:24:10,796 - INFO - INSERT ('S004', 'Rami Aoun', 22, 'rami.aoun@mail.aub.edu')
+2026-10-06 15:24:10,802 - INFO - INSERT ('S004', 'EECE330')
+2026-10-06 15:24:10,807 - INFO - UPDATE ('Rami Aoun', 23, 'rami@mail.aub.edu', 'S004')
+2026-10-06 15:24:10,813 - INFO - BACKUP -> C:\Users\Zeina\Lab2-SchoolManagement\demo_backup.db
+2026-10-06 15:24:10,819 - INFO - DELETE ('I002',)
+2026-10-06 15:24:10,826 - INFO - RESTORE <- C:\Users\Zeina\Lab2-SchoolManagement\demo_backup.db
+2026-10-06 15:35:48,053 - INFO - IMPORT 3 students, 2 instructors, 3 courses
+2026-10-06 15:35:48,059 - INFO - INSERT ('S004', 'Rami Aoun', 22, 'rami.aoun@mail.aub.edu')
+2026-10-06 15:35:48,065 - INFO - INSERT ('S004', 'EECE330')
+2026-10-06 15:35:48,071 - INFO - UPDATE ('Rami Aoun', 23, 'rami@mail.aub.edu', 'S004')
+2026-10-06 15:35:48,076 - INFO - BACKUP -> C:\Desktop\435L\Lab2-SchoolManagement\demo_backup.db
+2026-10-06 15:35:48,082 - INFO - DELETE ('I002',)
+2026-10-06 15:35:48,092 - INFO - RESTORE <- C:\Desktop\435L\Lab2-SchoolManagement\demo_backup.db
+2026-10-06 15:43:13,116 - INFO - BACKUP -> C:\Desktop\435L\Lab2-SchoolManagement\backups\school_backup_20261006_154313.db
+2026-10-06 15:43:27,972 - INFO - BACKUP -> C:\Desktop\435L\Lab2-SchoolManagement\backups\school_backup_20261006_154327.db
