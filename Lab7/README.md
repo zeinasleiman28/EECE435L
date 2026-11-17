@@ -35,3 +35,9 @@ pytest -v
 ```
 
 Expected: `16 passed`.
+
+## Test results
+
+`pytest -v test_user_Zeina_Sleiman.py` – all 16 tests pass:
+
+![pytest: 16 passed](screenshots/lab7_tests_passed.png)
