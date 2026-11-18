@@ -1,0 +1,9 @@
+...
+----------------------------------------------------------------------
+Ran 3 tests in 2.633s
+
+OK
+fast_function duration: 0.000011 s
+memory_intensive_function duration: 0.4270 s
+memory before: 36.85 MiB, after: 36.85 MiB
+slow_function duration: 2.0013 s

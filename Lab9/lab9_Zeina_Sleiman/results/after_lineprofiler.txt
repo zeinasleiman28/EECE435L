@@ -1,0 +1,30 @@
+Timer unit: 1e-07 s
+
+Total time: 2.00656 s
+File: C:\Users\Zeina\EECE435L\Lab9\lab9_Zeina_Sleiman\optimized\profiler_lineprofiler.py
+Function: slow_function at line 5
+
+Line #      Hits         Time  Per Hit   % Time  Line Contents
+==============================================================
+     5                                           def slow_function():
+     6         1   20008514.0    2e+07     99.7      time.sleep(2)
+     7         1      57123.0  57123.0      0.3      return sum(i ** 2 for i in range(10000))
+
+Total time: 6.48e-05 s
+File: C:\Users\Zeina\EECE435L\Lab9\lab9_Zeina_Sleiman\optimized\profiler_lineprofiler.py
+Function: optimized_fast_function at line 10
+
+Line #      Hits         Time  Per Hit   % Time  Line Contents
+==============================================================
+    10                                           def optimized_fast_function():
+    11         1        648.0    648.0    100.0      return sum(i ** 2 for i in range(100))
+
+Total time: 5.38595 s
+File: C:\Users\Zeina\EECE435L\Lab9\lab9_Zeina_Sleiman\optimized\profiler_lineprofiler.py
+Function: memory_intensive_function at line 14
+
+Line #      Hits         Time  Per Hit   % Time  Line Contents
+==============================================================
+    14                                           def memory_intensive_function():
+    15         1   53859522.0 5.39e+07    100.0      return sum(i ** 2 for i in range(10000000))
+
